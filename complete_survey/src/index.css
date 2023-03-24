@@ -1,0 +1,58 @@
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Center the survey form on the page */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Style the form inputs and labels */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form select,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Style the form buttons */
+  form button {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Style the form pages */
+  .page {
+    display: none;
+  }
+  
+  .page.active {
+    display: block;
+  }
+  
